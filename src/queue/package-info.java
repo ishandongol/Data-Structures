@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * @author lognod
+ *
+ */
+package queue;
