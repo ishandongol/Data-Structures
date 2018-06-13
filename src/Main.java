@@ -10,6 +10,7 @@ public class Main {
 		for (int i = 0; i < 5; i++) {
 			stack.push(sc.nextLine());
 		}
+		sc.close();
 		System.out.println("Pop Operation");
 		for (int i = 0; i < 5; i++) {
 			System.out.println(stack.pop());
