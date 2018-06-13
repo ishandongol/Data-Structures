@@ -21,6 +21,7 @@ public class Queue<T> implements QueueInterface<T> {
 
 	@Override
 	public T dequeue() {
+
 		if (!isEmpty()) {
 			T item = list.remove(front);
 			back--;
