@@ -14,7 +14,7 @@ public class BinarySearch {
 			System.out.print(item + " ");
 		}
 		System.out.println("");
-		this.upperBound = array.size();
+		this.upperBound = array.size()-1;
 		this.lowerBound = 0;
 	}
 
